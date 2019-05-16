@@ -21,12 +21,27 @@ public class Player {
         this.characters = characters;
     }
 
-    public int charatersSize() {
+    public int charactersSize() {
         return characters.size();
     }
 
     public void playCharacter(IFight character) {
         characters.add(character);
     }
+
+    public int fightUsingCharacter(IFight character) {
+        return character.attack();
+    }
+
+    public int changeCharacter(IFight character) {
+        if (characters.size() > 0) {
+            characters.remove(0);
+            playCharacter(character);
+        }
+
+        return charactersSize();
+    }
+
+
 
 }

@@ -39,4 +39,6 @@ public class Magician extends Character implements IFight, IDefend{
         return this.healthLevel +=3;
 
     }
+
+
 }
