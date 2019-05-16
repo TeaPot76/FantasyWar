@@ -1,13 +1,10 @@
 package fantasywar.characters;
 
-import fantasywar.charactertools.Creature;
-import fantasywar.charactertools.Spell;
 import fantasywar.charactertools.Weapon;
 
 public class Warrior extends Character{
 
     private Weapon weapon;
-
 
 
     public Warrior(String name, int healthLevel, Weapon weapon) {
@@ -22,5 +19,12 @@ public class Warrior extends Character{
 
     public void setWeapon(Weapon weapon) {
         this.weapon = weapon;
+    }
+    public int attack(){
+        return weapon.getAttackValue();
+    }
+
+    public int defend(){
+        return this.healthLevel += 4;
     }
 }

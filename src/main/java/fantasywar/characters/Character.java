@@ -1,9 +1,12 @@
+
+
 package fantasywar.characters;
 
-public abstract class Character {
+
+public abstract class Character implements IFight, IDefend{
     private String name;
     private int level;
-    private int healthLevel;
+    public int healthLevel;
 
     public Character(String name, int healthLevel) {
         this.name = name;
@@ -34,4 +37,6 @@ public abstract class Character {
     public void setHealthLevel(int healthLevel) {
         this.healthLevel = healthLevel;
     }
+
+
 }

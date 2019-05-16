@@ -3,7 +3,7 @@ package fantasywar.characters;
 import fantasywar.charactertools.Creature;
 import fantasywar.charactertools.Spell;
 
-public class Magician extends Character{
+public class Magician extends Character implements IFight, IDefend{
 
     private Spell spell;
     private Creature creature;
@@ -29,5 +29,14 @@ public class Magician extends Character{
 
     public void setCreature(Creature creature) {
         this.creature = creature;
+    }
+@Override
+    public int attack(){
+        return spell.getAttackValue();
+    }
+
+    public int defend(){
+        return this.healthLevel +=3;
+
     }
 }

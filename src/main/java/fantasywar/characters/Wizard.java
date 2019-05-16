@@ -10,4 +10,5 @@ public class Wizard extends Magician{
         super(name, healthLevel, spell, creature);
     }
 
+
 }
