@@ -1,6 +1,6 @@
 package fantasywar;
 
-import fantasywar.characters.IFight;
+import fantasywar.interfaces.IFight;
 
 import java.util.ArrayList;
 import java.util.List;

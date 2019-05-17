@@ -3,7 +3,10 @@
 package fantasywar.characters;
 
 
-public abstract class Character implements IFight, IDefend{
+import fantasywar.interfaces.IDefend;
+import fantasywar.interfaces.IFight;
+
+public abstract class Character implements IFight, IDefend {
     private String name;
     private int level;
     public int healthLevel;
