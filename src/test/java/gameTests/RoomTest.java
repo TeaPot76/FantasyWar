@@ -1,7 +1,7 @@
 package gameTests;
 
-import fantasywar.Room;
-import fantasywar.Treasure;
+import fantasywar.rooms.Room;
+import fantasywar.rooms.Treasure;
 import org.junit.Before;
 import org.junit.Test;
 

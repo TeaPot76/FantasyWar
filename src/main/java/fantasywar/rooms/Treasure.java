@@ -1,4 +1,4 @@
-package fantasywar;
+package fantasywar.rooms;
 
 public enum Treasure {
     GOLD(10),

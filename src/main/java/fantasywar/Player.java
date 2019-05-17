@@ -2,44 +2,27 @@ package fantasywar;
 
 import fantasywar.interfaces.IFight;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Player {
+    private String playerName;
 
-    private List<IFight> characters;
+    private IFight character;
 
-    public Player() {
-        this.characters = new ArrayList<>();
+    public Player(String playerName) {
+        this.playerName = playerName;
+        this.character = null;
     }
 
-    public List<IFight> getCharacters() {
-        return characters;
+    public IFight getCharacter() {
+        return character;
     }
 
-    public void setCharacters(List<IFight> characters) {
-        this.characters = characters;
+    public void setCharacter(IFight character) {
+        this.character = character;
     }
 
-    public int charactersSize() {
-        return characters.size();
-    }
 
-    public void playCharacter(IFight character) {
-        characters.add(character);
-    }
-
-    public int fightUsingCharacter(IFight character) {
+    public int fightUsingCharacter() {
         return character.attack();
-    }
-
-    public int changeCharacter(IFight character) {
-        if (characters.size() > 0) {
-            characters.remove(0);
-            playCharacter(character);
-        }
-
-        return charactersSize();
     }
 
 

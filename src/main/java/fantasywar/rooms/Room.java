@@ -1,4 +1,4 @@
-package fantasywar;
+package fantasywar.rooms;
 
 public class Room {
     private String name;

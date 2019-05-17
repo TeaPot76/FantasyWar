@@ -1,10 +1,9 @@
 package gameTests;
 
 import fantasywar.Player;
-import fantasywar.interfaces.IFight;
-import fantasywar.characters.warriors.Knight;
 import fantasywar.characters.magicians.Warlock;
 import fantasywar.characters.magicians.Wizard;
+import fantasywar.characters.warriors.Knight;
 import fantasywar.charactertools.Creature;
 import fantasywar.charactertools.Spell;
 import fantasywar.charactertools.Weapon;
@@ -12,8 +11,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -31,63 +28,30 @@ public class PlayerTest {
         knight = new Knight("Himan", 10, Weapon.SPEAR);
         warlock = new Warlock("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
         ArrayList characters = new ArrayList<>();
-        player1 = new Player();
-        player2 = new Player();
-
-        player1.playCharacter(knight);
-        player1.playCharacter(warlock);
-
+        player1 = new Player("Bob");
+        player2 = new Player("Dan");
 
     }
 
 
     @Test
-    public void hasCharacters(){
-        assertEquals(2, player1.charactersSize());
+    public void hasCharacter(){
+        assertEquals(null, player1.getCharacter());
 
     }
 
     @Test
-    public void canSetCharacters(){
-        ArrayList character = new ArrayList<>();
-        player2.setCharacters(character);
-        player2.playCharacter(knight);
-        assertEquals(1, player2.charactersSize());
+    public void canSetCharacter(){
+        player1.setCharacter(knight);
+        assertEquals(knight, player1.getCharacter());
 
     }
     @Test
     public void canFightUsingCharacter(){
-        assertEquals(14, player1.fightUsingCharacter(warlock));
+        player2.setCharacter(warlock);
+        assertEquals(14, player2.fightUsingCharacter());
 
     }
-
-
-
-    @Test
-    public void hasCharactersSize(){
-        player1.playCharacter(knight);
-        assertEquals(3, player1.charactersSize());
-
-    }
-
-
-    @Test
-    public void canChangeCharacter(){
-        // setup
-      List<IFight> expectedCharacters = Collections.singletonList(wizard);
-       // List<IFight> expectedCharacters = new ArrayList<>();
-        //expectedCharacters.add(wizard);
-        List<IFight> initialCharacter = new ArrayList<>();
-        initialCharacter.add(knight);
-        player2.setCharacters(initialCharacter);
-        // test
-        player2.changeCharacter(wizard);
-
-        // checks
-        assertEquals(1, player2.charactersSize());
-        assertEquals(expectedCharacters, player2.getCharacters());
-    }
-
 
 
 }
