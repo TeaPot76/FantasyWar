@@ -63,11 +63,11 @@ public class MagicianTest {
     @Test
     public void canAttack(){
 
-        assertEquals(12, magician.attack());
+        assertEquals(4, magician.attack());
     }
     @Test
     public void canDefend(){
 
-        assertEquals(113, magician.defend());
+        assertEquals(2, magician.defend());
     }
 }

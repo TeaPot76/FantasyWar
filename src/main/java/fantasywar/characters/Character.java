@@ -3,10 +3,9 @@
 package fantasywar.characters;
 
 
-import fantasywar.interfaces.IDefend;
-import fantasywar.interfaces.IFight;
+import fantasywar.interfaces.IPlay;
 
-public abstract class Character implements IFight, IDefend {
+public abstract class Character implements IPlay {
     private String name;
     private int level;
     public int healthLevel;
@@ -33,12 +32,12 @@ public abstract class Character implements IFight, IDefend {
         this.name = name;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
+    public int setLevel(int level) {
+        return this.level = level;
     }
 
-    public void setHealthLevel(int healthLevel) {
-        this.healthLevel = healthLevel;
+    public int setHealthLevel(int healthLevel) {
+        return this.healthLevel = healthLevel;
     }
 
 

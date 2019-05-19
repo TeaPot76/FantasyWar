@@ -49,9 +49,34 @@ public class PlayerTest {
     @Test
     public void canFightUsingCharacter(){
         player2.setCharacter(warlock);
-        assertEquals(14, player2.fightUsingCharacter());
+        assertEquals(4, player2.fightUsingCharacter());
 
     }
 
+    @Test
+    public void canDefendUsingCharacter(){
+        player2.setCharacter(warlock);
+        assertEquals(2, player2.defendUsingCharacter());
+
+    }
+
+    @Test
+    public void canSubtractHealth(){
+        warlock = new Warlock("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
+        knight = new Knight("Himan", 10, Weapon.SPEAR);
+        player2.setCharacter(warlock);
+        int healthToLoose = 6;
+        assertEquals(94, player2.subtractHealth(healthToLoose));
+
+    }
+    @Test
+    public void canAddHealth(){
+        warlock = new Warlock("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
+        knight = new Knight("Himan", 10, Weapon.SPEAR);
+        player2.setCharacter(knight);
+        int healthToAdd = 4;
+        assertEquals(14, player2.addHealth(healthToAdd));
+
+    }
 
 }

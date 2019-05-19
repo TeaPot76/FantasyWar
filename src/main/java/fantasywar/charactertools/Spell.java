@@ -1,10 +1,11 @@
 package fantasywar.charactertools;
 
 public enum Spell {
-    FIREBOLT (10),
-    LIGHTNING(12),
-    FROSTRUNE(14),
-    ICESPIKE(16);
+    TESTSPELL(0),
+    FIREBOLT (2),
+    LIGHTNING(4),
+    FROSTRUNE(4),
+    ICESPIKE(6);
 
 
 

@@ -1,10 +1,10 @@
 package fantasywar.charactertools;
 
 public enum Creature {
-    GOBLIN(10),
-    TROLL(12),
-    OGRE(14),
-    DRAGON(16);
+    GOBLIN(2),
+    TROLL(2),
+    OGRE(4),
+    DRAGON(6);
 
 
 

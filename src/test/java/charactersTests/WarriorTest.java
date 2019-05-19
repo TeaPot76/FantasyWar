@@ -52,12 +52,12 @@ public class WarriorTest {
     @Test
     public void canAttack(){
 
-        assertEquals(16, warrior.attack());
+        assertEquals(6, warrior.attack());
     }
     @Test
     public void canDefend(){
 
-        assertEquals(104, warrior.defend());
+        assertEquals(3, warrior.defend());
     }
 }
 

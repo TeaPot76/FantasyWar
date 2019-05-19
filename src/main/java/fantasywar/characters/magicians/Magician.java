@@ -1,12 +1,11 @@
 package fantasywar.characters.magicians;
 
 import fantasywar.characters.Character;
-import fantasywar.interfaces.IDefend;
-import fantasywar.interfaces.IFight;
+import fantasywar.interfaces.IPlay;
 import fantasywar.charactertools.Creature;
 import fantasywar.charactertools.Spell;
 
-public class Magician extends Character implements IFight, IDefend {
+public class Magician extends Character implements IPlay {
 
     private Spell spell;
     private Creature creature;
@@ -39,7 +38,7 @@ public class Magician extends Character implements IFight, IDefend {
     }
 
     public int defend(){
-        return this.healthLevel +=3;
+        return spell.getAttackValue() / 2;
 
     }
 

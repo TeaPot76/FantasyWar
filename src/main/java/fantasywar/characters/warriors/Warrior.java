@@ -26,6 +26,6 @@ public class Warrior extends Character {
     }
 
     public int defend(){
-        return this.healthLevel += 4;
+        return weapon.getAttackValue()/2;
     }
 }

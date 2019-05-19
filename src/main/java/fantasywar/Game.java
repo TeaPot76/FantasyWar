@@ -1,19 +1,20 @@
 package fantasywar;
 
 import fantasywar.characters.Cleric;
-import fantasywar.interfaces.IFight;
+import fantasywar.interfaces.IPlay;
 import fantasywar.rooms.Room;
 
 import java.util.List;
+import java.util.Random;
 
 public class Game {
-    private List<IFight>characters;
+    private List<IPlay>characters;
     private Player player;
     private Room room;
     private Cleric cleric;
     private int damage;
 
-    public Game(List<IFight> characters, Player player, Room room, Cleric cleric) {
+    public Game(List<IPlay> characters, Player player, Room room, Cleric cleric) {
         this.characters = characters;
         this.player = player;
         this.room = room;
@@ -21,7 +22,7 @@ public class Game {
         this.damage = 0;
     }
 
-    public List<IFight> getCharacters() {
+    public List<IPlay> getCharacters() {
         return characters;
     }
 
@@ -29,7 +30,7 @@ public class Game {
         return characters.size();
     }
 
-    public void addCharacter(IFight character){
+    public void addCharacter(IPlay character){
         characters.add(character);
     }
 
@@ -49,7 +50,7 @@ public class Game {
         return damage;
     }
 
-    public void setCharacters(List<IFight> characters) {
+    public void setCharacters(List<IPlay> characters) {
         this.characters = characters;
     }
 
@@ -68,8 +69,32 @@ public class Game {
     public void setDamage(int damage) {
         this.damage = damage;
     }
-
-    public int characterInflictsDamage(IFight character){
+    public int characterInflictsDamage(IPlay character){
         return damage += character.attack();
     }
+
+    public int rollDice(){
+        int initialNumber= 0;
+        int nSides = 4;
+        for (int i=0; i<6; i++){
+            Random r = new Random();
+            int roll = r.nextInt();
+            initialNumber = i +(roll %nSides);
+        }
+
+        return initialNumber;
+    }
+
+
+
+        public int attack(Player player1, Player player2) {
+            int playerAttack = player1.fightUsingCharacter();
+            int playerDefend = player2.defendUsingCharacter();
+            int diceRoll = rollDice();
+            if (diceRoll <= playerAttack){
+                return player2.subtractHealth(playerAttack);
+            }else{
+                return player2.addHealth(playerDefend);
+            }
+        }
 }

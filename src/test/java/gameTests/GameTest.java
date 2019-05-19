@@ -36,9 +36,11 @@ public class GameTest {
 
         wizard = new Wizard("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
         knight = new Knight("Himan", 10, Weapon.SPEAR);
-        warlock = new Warlock("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
+        warlock = new Warlock("Ganadalf",100, Spell.TESTSPELL, Creature.DRAGON);
         ArrayList characters = new ArrayList<>();
         player1 = new Player("Bob");
+        player2 = new Player("Bob");
+
         cleric1 = new Cleric("Gandalf", 100);
         cleric2 = new Cleric("GoodPal", 100);
         room1 = new Room("Dark", Treasure.RUBY);
@@ -51,7 +53,9 @@ public class GameTest {
 
     @Test
     public void hasCharacters(){
-        assertEquals(2, game.charactersSize());
+        game.addCharacter(knight);
+        game.addCharacter(warlock);
+        assertEquals(4, game.charactersSize());
 
     }
 
@@ -129,17 +133,46 @@ public class GameTest {
     public void hasInflictDamage(){
         int damage = 0;
         int result = game.characterInflictsDamage(knight);
-        assertEquals(16, result);
+        assertEquals(6, result);
     }
 
+//    @Test
+    // check if random for dice works
+//    public void canRollDice(){
+//        assertEquals(1, game.rollDice());
+//    }
+
+
+    @Test
+    public void canAttackPlayer1Wins() {
+        wizard = new Wizard("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
+        knight = new Knight("Himan", 10, Weapon.SPEAR);
+        player1.setCharacter(knight);
+        player2.setCharacter(wizard);
+
+        //result if player.1 spear = 6
+        assertEquals(94,   game.attack(player1, player2));
+    }
+
+    @Test
+    public void canAttackPlayer2Wins(){
+        warlock = new Warlock("Ganadalf",90, Spell.TESTSPELL, Creature.OGRE);
+        wizard = new Wizard("Goofie",100, Spell.FROSTRUNE, Creature.DRAGON);
+        player1.setCharacter(warlock);
+        player2.setCharacter(wizard);
+
+        //result if player.2 frostrune = 4
+        assertEquals(102,  game.attack(player1, player2));
+
+    }
 
 //    @Test
 //    public void canChangeCharacter(){
 //        // setup
-//      List<IFight> expectedCharacters = Collections.singletonList(wizard);
-//       // List<IFight> expectedCharacters = new ArrayList<>();
+//      List<IPlay> expectedCharacters = Collections.singletonList(wizard);
+//       // List<IPlay> expectedCharacters = new ArrayList<>();
 //        //expectedCharacters.add(wizard);
-//        List<IFight> initialCharacter = new ArrayList<>();
+//        List<IPlay> initialCharacter = new ArrayList<>();
 //        initialCharacter.add(knight);
 //        player2.setCharacters(initialCharacter);
 //        // test

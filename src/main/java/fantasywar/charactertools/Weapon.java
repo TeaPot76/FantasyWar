@@ -1,10 +1,10 @@
 package fantasywar.charactertools;
 
 public enum Weapon {
-    SWORD (10),
-    BATTLEAXE(12),
-    CROSSBALL(14),
-    SPEAR(16);
+    SWORD (2),
+    BATTLEAXE(4),
+    CROSSBALL(4),
+    SPEAR(6);
 
 
 
