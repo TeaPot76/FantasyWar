@@ -8,11 +8,16 @@ public class Player {
 
 
 
+
     public Player(String playerName) {
         this.playerName = playerName;
         this.character = null;
 
 
+    }
+
+    public String getName(){
+        return this.playerName;
     }
 
     public IPlay getCharacter() {
@@ -42,15 +47,18 @@ public class Player {
         return character.setHealthLevel(newHealth);
     }
 
+    public int playerLevel(){
+        return character.getLevel();
+    }
 
     public int addLevel(){
-        int newLevel = character.getLevel() + 1;
+        int newLevel = playerLevel() + 1;
         return character.setLevel(newLevel);
     }
 
     public int subtractLevel() {
         if (character.getLevel() >= 1) {
-            int newLevel = character.getLevel() - 1;
+            int newLevel = playerLevel() - 1;
             return character.setLevel(newLevel);
         } else {
             return 0;

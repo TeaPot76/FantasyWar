@@ -15,6 +15,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -169,6 +171,19 @@ public class GameTest {
        // assertEquals(102,  game.attack(player1, player2));
         assertEquals(6,  game.attack(player1, player2));
 
+    }
+    @Test
+    public void canAddPlayerToRoom(){
+        // setup
+        Map<String, Player> players = new HashMap<>();
+        room1 = new Room("Foggy", Treasure.FROGS, players);
+        player1 = new Player("Bob");
+        wizard.setLevel(4);
+        player1.setCharacter(wizard);
+        // test
+        game.addPlayerToRoom(player1, room1);
+        //check
+        assertEquals(player1, room1.getPlayerByName("Bob"));
     }
 
 

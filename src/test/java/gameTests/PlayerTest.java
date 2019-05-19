@@ -79,6 +79,13 @@ public class PlayerTest {
 
     }
     @Test
+    public void canGetPlayerLevel(){
+        warlock = new Warlock("Ganadalf",90, Spell.TESTSPELL, Creature.OGRE);
+        warlock.setLevel(1);
+        player1.setCharacter(warlock);
+        assertEquals(1, player1.playerLevel());
+    }
+    @Test
     public void canAddLevel(){
         warlock = new Warlock("Ganadalf",90, Spell.TESTSPELL, Creature.OGRE);
         warlock.setLevel(1);

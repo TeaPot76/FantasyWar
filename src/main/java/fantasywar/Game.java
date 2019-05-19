@@ -98,4 +98,10 @@ public class Game {
                 return player2.addLevel();
             }
         }
+
+        public void addPlayerToRoom(Player player, Room room){
+        if (player.playerLevel() > 3){
+            room.addPlayerToRoom(player.getName(), player);
+        }
+    }
 }
