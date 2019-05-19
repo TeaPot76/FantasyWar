@@ -86,15 +86,16 @@ public class Game {
     }
 
 
-
         public int attack(Player player1, Player player2) {
             int playerAttack = player1.fightUsingCharacter();
             int playerDefend = player2.defendUsingCharacter();
             int diceRoll = rollDice();
             if (diceRoll <= playerAttack){
-                return player2.subtractHealth(playerAttack);
+                player2.subtractHealth(playerAttack);
+                return player1.addLevel();
             }else{
-                return player2.addHealth(playerDefend);
+                player2.addHealth(playerDefend);
+                return player2.addLevel();
             }
         }
 }

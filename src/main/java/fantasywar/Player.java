@@ -34,14 +34,27 @@ public class Player {
 
     public int subtractHealth(int healthToSubtract){
         int newHealth = character.getHealthLevel() - healthToSubtract;
-        return
-        character.setHealthLevel(newHealth);
+        return character.setHealthLevel(newHealth);
     }
 
-    public int addHealth(int healthToSubtract){
-        int newHealth = character.getHealthLevel() + healthToSubtract;
-        return
-                character.setHealthLevel(newHealth);
+    public int addHealth(int healthToAdd){
+        int newHealth = character.getHealthLevel() + healthToAdd;
+        return character.setHealthLevel(newHealth);
+    }
+
+
+    public int addLevel(){
+        int newLevel = character.getLevel() + 1;
+        return character.setLevel(newLevel);
+    }
+
+    public int subtractLevel() {
+        if (character.getLevel() >= 1) {
+            int newLevel = character.getLevel() - 1;
+            return character.setLevel(newLevel);
+        } else {
+            return 0;
+        }
     }
 
 }

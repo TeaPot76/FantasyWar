@@ -2,38 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58999e6-5e8d-4891-943c-73496c52f255" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/characters/Character.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/characters/Character.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/characters/magicians/Magician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/characters/magicians/Magician.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/characters/warriors/Warrior.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/characters/warriors/Warrior.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/charactertools/Creature.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/charactertools/Creature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/charactertools/Spell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/charactertools/Spell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/charactertools/Weapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/fantasywar/charactertools/Weapon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/interfaces/IDefend.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/fantasywar/interfaces/IFight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/BarbarianTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/DwarfTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/DwarfTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/KnightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/KnightTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/MagicianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/MagicianTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/WarlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/WarriorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/WarriorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/charactersTests/WizardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/charactersTests/WizardTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gameTests/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gameTests/GameTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/gameTests/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/gameTests/PlayerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/characters/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/characters/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/characters/magicians/Magician.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/characters/magicians/Magician.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/characters/warriors/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/characters/warriors/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/charactertools/Creature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/charactertools/Creature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/charactertools/Spell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/charactertools/Spell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/charactertools/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/charactertools/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/interfaces/IDefend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fantasywar/interfaces/IFight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fantasywar/interfaces/IPlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/charactersTests/MagicianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/charactersTests/MagicianTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/charactersTests/WarriorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/charactersTests/WarriorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gameTests/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gameTests/GameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gameTests/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gameTests/PlayerTest.java" afterDir="false" />
     </list>
@@ -64,8 +34,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/Game.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1110">
-                  <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+                <state relative-caret-position="287">
+                  <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -76,8 +46,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/Player.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+                <state relative-caret-position="225">
+                  <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
                   <folding>
                     <element signature="e#453#454#0" expanded="true" />
                     <element signature="e#494#495#0" expanded="true" />
@@ -134,8 +104,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/gameTests/PlayerTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+                <state relative-caret-position="197">
+                  <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -143,8 +113,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/gameTests/GameTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="86">
-                  <caret line="162" column="41" lean-forward="true" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="41" />
+                <state relative-caret-position="172">
+                  <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -325,7 +295,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558257267983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558258879915" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -352,35 +322,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (3)">
-    <configuration name="All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GameTest.canAttackPlayer2Wins">
     <configuration name="All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameTest.canAttackPlayer1Wins" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gameTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gameTests" />
+      <option name="MAIN_CLASS_NAME" value="gameTests.GameTest" />
+      <option name="METHOD_NAME" value="canAttackPlayer1Wins" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -401,7 +363,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.canAddHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.canSubstractLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gameTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gameTests" />
+      <option name="MAIN_CLASS_NAME" value="gameTests.GameTest" />
+      <option name="METHOD_NAME" value="canSubstractLevel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.canAddLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
       <extension name="coverage">
         <pattern>
@@ -411,7 +389,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="gameTests" />
       <option name="MAIN_CLASS_NAME" value="gameTests.PlayerTest" />
-      <option name="METHOD_NAME" value="canAddHealth" />
+      <option name="METHOD_NAME" value="canAddLevel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerTest.canSubstractLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.week_twelve.FanatsyWar.FantasyWar.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gameTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gameTests" />
+      <option name="MAIN_CLASS_NAME" value="gameTests.PlayerTest" />
+      <option name="METHOD_NAME" value="canSubstractLevel" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -419,11 +413,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (3)" />
-        <item itemvalue="JUnit.All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (2)" />
-        <item itemvalue="JUnit.All in com.codeclan.week_twelve.FanatsyWar.FantasyWar.test (1)" />
         <item itemvalue="JUnit.GameTest.canAttackPlayer2Wins" />
-        <item itemvalue="JUnit.PlayerTest.canAddHealth" />
+        <item itemvalue="JUnit.GameTest.canAttackPlayer1Wins" />
+        <item itemvalue="JUnit.PlayerTest.canSubstractLevel" />
+        <item itemvalue="JUnit.PlayerTest.canAddLevel" />
+        <item itemvalue="JUnit.GameTest.canSubstractLevel" />
       </list>
     </recent_temporary>
   </component>
@@ -441,46 +435,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest_canAttackPlayer1Wins - 2019.05.19 at 09h 37m 26s.xml">
+    <history-entry file="GameTest_canAddLevel - 2019.05.19 at 10h 27m 30s.xml">
+      <configuration name="GameTest.canAddLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_canAddLevel - 2019.05.19 at 10h 27m 43s.xml">
+      <configuration name="GameTest.canAddLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_canAddLevel - 2019.05.19 at 10h 27m 51s.xml">
+      <configuration name="GameTest.canAddLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_canSubstractLevel - 2019.05.19 at 10h 28m 45s.xml">
+      <configuration name="GameTest.canSubstractLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_canAddLevel - 2019.05.19 at 10h 29m 52s.xml">
+      <configuration name="PlayerTest.canAddLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_canSubstractLevel - 2019.05.19 at 10h 34m 34s.xml">
+      <configuration name="PlayerTest.canSubstractLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_canSubstractLevel - 2019.05.19 at 10h 34m 44s.xml">
+      <configuration name="PlayerTest.canSubstractLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_canSubstractLevel - 2019.05.19 at 10h 35m 23s.xml">
+      <configuration name="PlayerTest.canSubstractLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_canSubstractLevel - 2019.05.19 at 10h 35m 37s.xml">
+      <configuration name="PlayerTest.canSubstractLevel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_canAttackPlayer1Wins - 2019.05.19 at 10h 38m 34s.xml">
       <configuration name="GameTest.canAttackPlayer1Wins" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_canAttackPlayer1Wins - 2019.05.19 at 09h 38m 51s.xml">
-      <configuration name="GameTest.canAttackPlayer1Wins" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_canAttackPlayer1Wins - 2019.05.19 at 09h 39m 17s.xml">
-      <configuration name="GameTest.canAttackPlayer1Wins" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_canAttackPlayer1Wins - 2019.05.19 at 09h 39m 33s.xml">
-      <configuration name="GameTest.canAttackPlayer1Wins" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_canSubtractHealth - 2019.05.19 at 09h 58m 05s.xml">
-      <configuration name="PlayerTest.canSubtractHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_canSubtractHealth - 2019.05.19 at 09h 58m 15s.xml">
-      <configuration name="PlayerTest.canSubtractHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_canSubtractHealth - 2019.05.19 at 09h 58m 31s.xml">
-      <configuration name="PlayerTest.canSubtractHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_canAttackPlayer2Wins - 2019.05.19 at 10h 02m 54s.xml">
-      <configuration name="GameTest.canAttackPlayer2Wins" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PlayerTest_canAddHealth - 2019.05.19 at 10h 08m 02s.xml">
-      <configuration name="PlayerTest.canAddHealth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_canAttackPlayer2Wins - 2019.05.19 at 10h 11m 03s.xml">
-      <configuration name="GameTest.canAttackPlayer2Wins" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" sideWeight="0.5023585" side_tool="true" weight="0.24959612" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976415" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976415" weight="0.24959612" />
       <window_info id="Structure" order="1" sideWeight="0.50158226" side_tool="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32911393" />
@@ -489,7 +484,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32911393" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39873418" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -766,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/interfaces/IPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/characters/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -786,10 +774,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/interfaces/IPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        <state relative-caret-position="225">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
           <folding>
             <element signature="e#453#454#0" expanded="true" />
             <element signature="e#494#495#0" expanded="true" />
@@ -801,15 +796,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gameTests/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="81" column="1" lean-forward="true" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+        <state relative-caret-position="197">
+          <caret line="91" column="8" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fantasywar/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="287">
+          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -818,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/gameTests/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="162" column="41" lean-forward="true" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="41" />
+        <state relative-caret-position="172">
+          <caret line="154" column="27" selection-start-line="154" selection-start-column="27" selection-end-line="154" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -78,5 +78,20 @@ public class PlayerTest {
         assertEquals(14, player2.addHealth(healthToAdd));
 
     }
+    @Test
+    public void canAddLevel(){
+        warlock = new Warlock("Ganadalf",90, Spell.TESTSPELL, Creature.OGRE);
+        warlock.setLevel(1);
+        player1.setCharacter(warlock);
+        assertEquals(2, player1.addLevel());
+    }
+    @Test
+
+    public void canSubstractLevel(){
+        warlock = new Warlock("Ganadalf",90, Spell.TESTSPELL, Creature.OGRE);
+        warlock.setLevel(1);
+        player1.setCharacter(warlock);
+        assertEquals(0, player1.subtractLevel());
+    }
 
 }

@@ -147,24 +147,30 @@ public class GameTest {
     public void canAttackPlayer1Wins() {
         wizard = new Wizard("Ganadalf",100, Spell.FROSTRUNE, Creature.DRAGON);
         knight = new Knight("Himan", 10, Weapon.SPEAR);
+        knight.setLevel(2);
         player1.setCharacter(knight);
         player2.setCharacter(wizard);
 
         //result if player.1 spear = 6
-        assertEquals(94,   game.attack(player1, player2));
+      //  assertEquals(94,   game.attack(player1, player2));
+
+        assertEquals(3, game.attack(player1, player2) );
     }
 
     @Test
     public void canAttackPlayer2Wins(){
         warlock = new Warlock("Ganadalf",90, Spell.TESTSPELL, Creature.OGRE);
         wizard = new Wizard("Goofie",100, Spell.FROSTRUNE, Creature.DRAGON);
+        wizard.setLevel(5);
         player1.setCharacter(warlock);
         player2.setCharacter(wizard);
 
         //result if player.2 frostrune = 4
-        assertEquals(102,  game.attack(player1, player2));
+       // assertEquals(102,  game.attack(player1, player2));
+        assertEquals(6,  game.attack(player1, player2));
 
     }
+
 
 //    @Test
 //    public void canChangeCharacter(){
